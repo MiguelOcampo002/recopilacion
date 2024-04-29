@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import geopandas as gpd
 from PIL import Image  # Importa la clase Image desde el módulo PIL
 import json
 
