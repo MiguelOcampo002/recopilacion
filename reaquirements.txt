@@ -8,3 +8,9 @@ openai
 tiktoken
 streamlit
 geopandas
+keras
+streamlit-webrtc
+numpy
+opencv-python-headless
+Pillow
+tensorflow
