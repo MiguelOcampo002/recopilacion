@@ -6,6 +6,7 @@ from PIL import Image
 st.title('Temperatura y humedad, simulación irreal')
 image = Image.open('OIP.jpeg')
 st.image(image)
+st.subheader ("Esta primera página te mostrará los calculos básicos de los datos ingresados por csv sacados de la medición de los sensores")
 
 uploaded_file = st.file_uploader('Choose a file')
 if uploaded_file is not None:
