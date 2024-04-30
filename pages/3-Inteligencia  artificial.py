@@ -9,6 +9,7 @@ model = load_model('keras_model.h5')
 data = np.ndarray(shape=(1, 224, 224, 3), dtype=np.float32)
 
 st.title("Reconocimiento de Imágenes")
+st.subheader("Aquí podras hacer el reconocimiento de una imagen sobre tu estado de animo, siendo este capaz de reconocer si tu cara significa que estas bien o estas mal")
 
 img_file_buffer = st.camera_input("Toma una Foto")
 
