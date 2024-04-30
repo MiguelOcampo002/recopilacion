@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 #from PIL import Image
 from PIL import Image as Image, ImageOps as ImagOps
-from keras.model.h5 import load_model
+from keras.models import load_model
 
 model = load_model('keras_model.h5')
 data = np.ndarray(shape=(1, 224, 224, 3), dtype=np.float32)
