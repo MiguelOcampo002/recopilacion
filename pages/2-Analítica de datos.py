@@ -45,7 +45,7 @@ for feature in data['features']:
 
 # Slider para seleccionar el número de registros de accidentes a visualizar
 nm = st.slider('Selecciona el número de registros de accidentes que deseas visualizar', 5, 30000)
-
+st.write("Podemos encontrar gran cantidad de variables en esta base de datos, de las cuales priorizaremos, la hora, el día y el barrio como pvariable srectoras de un posible análisis")
 # Construir el DataFrame con los datos obtenidos
 dfLa = pd.DataFrame({'lat': La[0:nm]})
 dfLo = pd.DataFrame({'lon': Lo[0:nm]})
