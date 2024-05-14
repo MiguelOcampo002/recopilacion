@@ -10,6 +10,7 @@ data = np.ndarray(shape=(1, 224, 224, 3), dtype=np.float32)
 
 st.title("Reconocimiento de Imágenes")
 st.subheader("Aquí podras hacer el reconocimiento de una imagen sobre tu estado de animo, siendo este capaz de reconocer si tu cara significa que estas bien o estas mal")
+st.write("La inteligenci artificial a través del reconocimiento de impagenes tiene la potencialidad de aplicabilidad en la ciudad para optimizar infraestructura de movilidad, salud, lucha contra el cambio climático y demás tópicos, que permiten una toma de desiciones eficaz y en corto tiempo gracias a la movilización de datos y análisis de los mismos realizados por la IA")
 
 img_file_buffer = st.camera_input("Toma una Foto")
 
